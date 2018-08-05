@@ -6,8 +6,8 @@ If credentials are wrong then you will get Toast message that "Wrong Email or Pa
 
 We should create one java class(in my project it is, "DatabaseHelper") which will extend SQLiteOpenHelper in order to use SQLite database.
 
-I have used ContentValues to insert email and password data in database table. ==> While SignUp
-I have used Cursor to retrieve data from database table. ==> While SignIn
+For SignUp, I have used ContentValues to insert email and password data in database table.
+For SignIn, I have used Cursor to retrieve data from database table.
 
 How to access SQLite database to see whether entered data is stored or not?
 
